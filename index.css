@@ -1,8 +1,120 @@
-#overskrift {
-    color: #ff6347;
+body,
+html {
+  margin: 0px;
+  min-height: 200vh;
+  padding: 0px;
+  font: 14px "poppins", sans-serif;
+  background-color: white;
 }
 
-#header {
-    background-color: rgb(75, 52, 39);
-    padding
+.of1 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    margin: auto 50px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo2 {
+    height: 156px;
+    width: 279px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: center;
+    background-color: #AB011C;
+    padding: 2px;
+    margin: 0px;
+}
+
+.navbutton {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto 50px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+h6 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.copy {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.logo3 {
+    margin-left: 10px;
+}
+
+.tfoto {
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+}
+
+.secright {
+
+}
+
+.secleft {
+
+}
+
+h5 {
+
+}
+
+.pictextright {
+
+}
+
+.pictextleft {
+    
 }
